@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:padding="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="284dp"
+            android:layout_height="262dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/all_medicine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="40dp"
+            android:text="1. 약은 알약, 캡슐, 액체류로 분류되어있다."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image01"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <ImageView
+            android:id="@+id/image02"
+            android:layout_width="234dp"
+            android:layout_height="225dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/medicine_trash"
+            app:layout_constraintStart_toEndOf="@+id/image01"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="56dp"
+            android:textColor="#000000"
+            android:text="2. 약은 따로 모아 폐의약품수거함에 버려야한다."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView01"
+            app:layout_constraintTop_toBottomOf="@+id/image02"
+            app:layout_constraintVertical_bias="0.06" />
+
+        <ImageView
+            android:id="@+id/image03"
+            android:layout_width="278dp"
+            android:layout_height="246dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/o_medicine"
+            app:layout_constraintStart_toEndOf="@+id/image02"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="44dp"
+            android:text="3. 캡슐 알약은 봉지에 모아 폐의약품수거함에 버린다."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView02"
+            app:layout_constraintTop_toBottomOf="@+id/image03"
+            app:layout_constraintVertical_bias="0.059" />
+
+        <ImageView
+            android:id="@+id/image04"
+            android:layout_width="319dp"
+            android:layout_height="253dp"
+            android:layout_marginStart="232dp"
+            android:layout_marginLeft="232dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/l_medicine"
+            app:layout_constraintStart_toEndOf="@+id/image03"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginLeft="220dp"
+            android:text="4. 액체류는 따로 모아서 폐의약품수거함에 버려야한다."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView03"
+            app:layout_constraintTop_toBottomOf="@+id/image04"
+            app:layout_constraintVertical_bias="0.208" />
+
+        <ImageView
+            android:id="@+id/image05"
+            android:layout_width="371dp"
+            android:layout_height="259dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/trashbag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image04"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:text="5. 약을 버리고 남은 케이스는 포장지의 설명에 따라 버린다."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView04"
+            app:layout_constraintTop_toBottomOf="@+id/image05"
+            app:layout_constraintVertical_bias="0.181" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</HorizontalScrollView>
+
+
+

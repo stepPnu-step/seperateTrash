@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_info1"
+        android:enabled="true"
+        android:icon="@drawable/plastic"
+        android:title="플라스틱"/>
+    <item
+        android:id="@+id/action_info2"
+        android:enabled="true"
+        android:icon="@drawable/can"
+        android:title="캔"/>
+    <item
+        android:id="@+id/action_info3"
+        android:enabled="true"
+        android:icon="@drawable/egg"
+        android:title="계란껍질"/>
+    <item
+        android:id="@+id/action_info4"
+        android:enabled="true"
+        android:icon="@drawable/medicine"
+        android:title="약"/>
+    <item
+        android:id="@+id/action_info5"
+        android:enabled="true"
+        android:icon="@drawable/vinyl"
+        android:title="비닐"/>
+
+
+</menu>
